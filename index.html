@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusteries Bellver</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="relative bg-cover bg-center text-gray-800 font-sans" style="background-image: url('imagenes/fondo.png');">
+
+  <!-- Capa fosc translúcida per damunt del fons -->
+  <div class="absolute inset-0 bg-white bg-opacity-80 z-0"></div>
+
+  <!-- Contingut de la pàgina -->
+  <div class="relative z-10">
+
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 shadow">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <img src="imagenes/logo.png" alt="Logo Fusteries Bellver" class="h-20" />
+        <nav class="space-x-4">
+          <a href="#serveis" class="hover:text-green-700">Serveis</a>
+          <a href="#contacte" class="hover:text-green-700">Contacte</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 text-center text-gray-900">
+      <div class="py-12 px-4">
+        <h2 class="text-4xl font-bold mb-4">Fusteria Artesanal a Cerdanya</h2>
+        <p class="text-lg">Mobles a mida, portes, finestres i més amb acabats professionals.</p>
+      </div>
+    </section>
+
+    <!-- Serveis -->
+    <section id="serveis" class="py-12">
+      <div class="container mx-auto">
+        <h3 class="text-2xl font-semibold mb-6 text-center">Serveis</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div class="p-4 border rounded shadow hover:shadow-lg bg-white bg-opacity-90">
+            <img src="imagenes/Mida.jpg" alt="Servei 1" class="mx-auto mb-4 w-24 h-24 rounded-full object-cover" />
+            <h4 class="font-bold mb-2">Mobles a mida</h4>
+            <p>Creació de mobles únics per a cada espai.</p>
+          </div>
+          <div class="p-4 border rounded shadow hover:shadow-lg bg-white bg-opacity-90">
+            <img src="imagenes/Finestres.png" alt="Servei 2" class="mx-auto mb-4 w-24 h-24 rounded-full object-cover" />
+            <h4 class="font-bold mb-2">Portes i finestres</h4>
+            <p>Fusteria exterior amb materials duradors i naturals.</p>
+          </div>
+          <div class="p-4 border rounded shadow hover:shadow-lg bg-white bg-opacity-90">
+            <img src="imagenes/Reformes.jpg" alt="Servei 3" class="mx-auto mb-4 w-24 h-24 rounded-full object-cover" />
+            <h4 class="font-bold mb-2">Reformes</h4>
+            <p>Adaptació i renovació de locals i habitatges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacte -->
+    <section id="contacte" class="py-12">
+      <div class="container mx-auto text-center">
+        <h3 class="text-2xl font-semibold mb-6">Contacta amb nosaltres</h3>
+        <div class="max-w-xl mx-auto bg-white bg-opacity-90 p-6 rounded shadow space-y-4 text-left text-lg">
+          <p><strong>📞 Telèfon de contacte:</strong> 650943338</p>
+          <p><strong>📍 Direcció del taller:</strong> Carrer Joan Margall 13, Bellver de Cerdanya</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4">
+      © 2025 Fusteries Bellver. Tots els drets reservats.
+    </footer>
+
+  </div>
+
+</body>
+</html>
